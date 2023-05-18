@@ -1,0 +1,36 @@
+<h1>edit movie</h1>
+
+<form action="/movies/{{aMovie._id}}/update" method="POST">
+
+<div>
+    Title: 
+    <input type="text" name="title" value="aMovie.title">
+</div>
+
+<div>
+    Director: 
+    <input type="text" name="director" value="aMovie.director">
+</div>
+
+<div>
+    Image: 
+    <input type="text" name="img" value="aMovie.img">
+</div>
+
+<div>
+    Description:
+    <input type="text" name="description" value="aMovie.description">
+</div>
+
+<div>
+    Stars: 
+    <input type="text" name="stars"  value="aMovie.stars">
+</div>
+
+
+
+
+<button>Save</button>
+
+
+</form>
